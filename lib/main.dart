@@ -42,7 +42,7 @@ class _RootPageState extends State<RootPage> {
       body: pages[currentPage],
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          debugPrint('FLoating Action Button');
+          debugPrint('Floating Action Button');
         },
         child: const Icon(Icons.add),
       ),
